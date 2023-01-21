@@ -1,24 +1,28 @@
-# README
+# Archi
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the 2nd project I created at the General Assembly SEIC60 Course. Archi is a simple website about architects & their buildings, which are all part of a database system. Users can interact with the site by collecting info about architects & their buildings. 
 
-Things you may want to cover:
+The tech stack used for this project includes: 
+- Ruby (v2.7.7) on Rails (v5.2.8.1) including ActiveRecord (v5.2.8.1)
+- PostgreSQL (v15)
+- Embedded Ruby
+- SCSS
 
-* Ruby version
+This project will be deployed on (something.io) as GitHub cannot display projects with Postgresql.
 
-* System dependencies
+## Project Components 
 
-* Configuration
+- Entity Relationship Diagram (ERD)
+https://lucid.app/lucidchart/b37517f7-80bd-46bf-98ab-5c88edb51a9a/edit?viewport_loc=-94%2C31%2C2419%2C1330%2C0_0&invitationId=inv_5785c013-dbcd-48b8-a63d-fe75839daf9d
 
-* Database creation
+- Pseudocodes (coming soon on Notion)
 
-* Database initialization
+- Wireframe design (coming soon on Figma...gonna w8 to learn Bootstrap, Cloudinary & SCSS 1st)
 
-* How to run the test suite
+Feel free to use Archi (coming soon...) on (github url coming soon)!
 
-* Services (job queues, cache servers, search engines, etc.)
+## Approach 
+Being methodical when it comes to doing complex projects with multiple components helps with efficient and well-thought processes required.
 
-* Deployment instructions
 
-* ...
+Copyright Penelope Chen
