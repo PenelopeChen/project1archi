@@ -7,19 +7,22 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= favicon_link_tag asset_path('favicon.ico')%>
   </head>
 
   <body>
     <nav>
-      <%= link_to 'Home', root_path %>
+      <%= link_to 'Home', root_path %> |
       <% if @current_user.present? %>
-        <%= link_to "All users", users_path %>
-      <% end %>
-      <%= link_to 'New mixtape', new_mixtape_path %>
-      <%= link_to 'Sign out', login_path, :method => 'delete' %>
+        <%= link_to "All users", users_path %> |
+        <%= link_to 'Buildings', buildings_path %> |
+        <%= link_to 'New building', new_building_path %> |
+        <%= link_to 'Architects', architects_path %> |
+        <%= link_to 'New architect', new_architect_path %> |
+        <%= link_to 'Sign out', login_path, :method => 'delete' %> 
       <% else %>
-        <%= link_to 'Sign up', new_user_path %>
-        <%= link_to 'Sign in', login_path %>
+        <%= link_to 'Sign up', new_user_path %> |
+        <%= link_to 'Log in', login_path %>
       <% end %>
     </nav>
     <%= yield %>

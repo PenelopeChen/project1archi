@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
     before_action :fetch_user
-    before_action :check_for_login
+    # before_action :check_for_admin
 
     private
     def fetch_user
