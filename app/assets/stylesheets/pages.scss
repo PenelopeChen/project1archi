@@ -4,8 +4,9 @@
 body {
     background-image: url(https://cdn.britannica.com/63/96663-050-C17E44F5/Fallingwater-Frank-Lloyd-Wright-Mill-Run-Pennsylvania-1937.jpg);
     color: rgb(255,250,250);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: large;
+    margin: 2em;
 }
 
 .container {
@@ -38,7 +39,6 @@ form {
     width: 20em;
     line-height: 2em;
     // display: flex;
-    
 }
 
 input { 

@@ -3,3 +3,9 @@
 <% if @current_user.present? %> 
     <p>Welcome back user: <%= @current_user.email %></p>
 <% end %>
+
+<br>
+
+<h3>Architectural Quotes by Famous Architects</h3>
+<%= @response[0]['quote'] %> -
+<%= @response[0]['author'] %>

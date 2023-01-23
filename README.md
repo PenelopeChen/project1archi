@@ -8,16 +8,16 @@ The tech stack used for this project includes:
 - Embedded Ruby
 - SCSS
 
-This project will be deployed on (something.io) as GitHub cannot display projects with Postgresql.
+This project will be deployed on Heroku as GitHub cannot display projects with Postgresql.
 
 ## Project Components 
 
 - Entity Relationship Diagram (ERD)
 https://lucid.app/lucidchart/b37517f7-80bd-46bf-98ab-5c88edb51a9a/edit?viewport_loc=-94%2C31%2C2419%2C1330%2C0_0&invitationId=inv_5785c013-dbcd-48b8-a63d-fe75839daf9d
 
-- Pseudocodes (coming soon on Notion)
+- A checklist that helped with ensuring everything is in place (Notion)
 
-- Wireframe design (coming soon on Figma...gonna w8 to learn Bootstrap, Cloudinary & SCSS 1st)
+- Wireframe design (coming soon on Figma...gonna w8 to learn Cloudinary & SCSS 1st)
 
 Feel free to use Archi (coming soon...) on (github url coming soon)!
 
