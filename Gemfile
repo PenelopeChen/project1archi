@@ -24,8 +24,12 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-# Use httparty for the API
+# Use httparty for the quotes API
 gem 'httparty'
+# # Use uri for Google Places API
+# gem 'uri'
+# # Use net-http for Google Places API
+# gem 'net-http'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
