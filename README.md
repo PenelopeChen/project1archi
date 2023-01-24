@@ -19,7 +19,7 @@ https://lucid.app/lucidchart/b37517f7-80bd-46bf-98ab-5c88edb51a9a/edit?viewport_
 
 - Wireframe design (coming soon on Figma...gonna w8 to learn Cloudinary & SCSS 1st)
 
-Feel free to use Archi (coming soon...) on (github url coming soon)!
+Feel free to use Archi on archi.herokuapp.com!
 
 ## Approach 
 Being methodical when it comes to doing complex projects with multiple components helps with efficient and well-thought processes required.
