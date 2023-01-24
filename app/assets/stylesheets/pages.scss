@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
     background-image: url(https://cdn.britannica.com/63/96663-050-C17E44F5/Fallingwater-Frank-Lloyd-Wright-Mill-Run-Pennsylvania-1937.jpg);
+    opacity: 40% black;
     color: rgb(255,250,250);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: large;
@@ -33,13 +34,11 @@ nav {
 
 a {
     color: sandybrown;
-    text-shadow: 2px 2px black;
 }
 
 form {
     width: 20em;
     line-height: 2em;
-    // display: flex;
 }
 
 input { 
