@@ -15,7 +15,7 @@ This project will be deployed on Heroku as GitHub cannot display projects with P
 - Entity Relationship Diagram (ERD)
 https://lucid.app/lucidchart/b37517f7-80bd-46bf-98ab-5c88edb51a9a/edit?viewport_loc=-94%2C31%2C2419%2C1330%2C0_0&invitationId=inv_5785c013-dbcd-48b8-a63d-fe75839daf9d
 
-- A checklist that helped with ensuring everything is in place (Notion)
+- A checklist that helped with ensuring everything is in place (Notion) https://www.notion.so/Checklist-838ff67b46924d8cac0127eaaf7594a4
 
 - Wireframe design (coming soon on Figma...gonna w8 to learn Cloudinary & SCSS 1st)
 
