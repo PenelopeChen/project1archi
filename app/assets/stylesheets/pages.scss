@@ -7,55 +7,51 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: large;
     margin: 2em;
-    .card {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        // align-items: center;
-        nav {
-            display: flex; 
-            justify-content: space-evenly;
-            a {
-                color: lavenderblush;
-                text-decoration: none;
-                font-size: 20px;
+        .container {
+        max-width: 960px;
+        margin: 0 auto;
+            .card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                // align-items: center;
+                nav {
+                    display: flex; 
+                    justify-content: space-evenly;
+                    a {
+                        color: lavenderblush;
+                        text-decoration: none;
+                        font-size: 20px;
+                    }
+                }
+                .card2 {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: #00A86B;
+                    opacity: 90%;
+                    border-radius: 0.6em;
+                    padding: 2em;
+                    .thumb {
+                        height: 10em;
+                    }
+                    .feature {
+                        max-height: 30em;
+                    }
+                }
+                form {
+                    width: 20em;
+                    line-height: 2em;
+                    input { 
+                        width: 50%;
+                        border-radius: 0.3em;
+                        padding: 0.5em;
+                    }
+                    label {
+                        display: block;
+                    }
+                }
             }
-        }
-        .card2 {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            background-color: #00A86B;
-            opacity: 90%;
-            border-radius: 0.6em;
-            padding: 2em;
-        }
-        form {
-            width: 20em;
-            line-height: 2em;
-            input { 
-                width: 50%;
-                border-radius: 0.3em;
-                padding: 0.5em;
-            }
-        }
     }
-}
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.thumb {
-    height: 10em;
-}
-
-.feature {
-    max-height: 30em;
-}
-
-label {
-    display: block;
 }

@@ -11,24 +11,26 @@
   </head>
 
   <body>
-    <section class="card">
-      <nav class ="nav-bar">
-        <%= link_to 'Home', root_path %> |
-        <% if @current_user.present? %>
-          <%= link_to "All users", users_path %> |
-          <%= link_to 'Architects', architects_path %> |
-          <%= link_to 'New architect', new_architect_path %> |
-          <%= link_to 'Buildings', buildings_path %> |
-          <%= link_to 'New building', new_building_path %> |
-          <%= link_to 'Sign out', login_path, :method => 'delete' %> 
-        <% else %>
-          <%= link_to 'Sign up', new_user_path %> |
-          <%= link_to 'Log in', login_path %>
-        <% end %>
-      </nav>
-      <hr>
-      <section class="card2">
-      <%= yield %>
+    <section class="container">
+      <section class="card">
+        <nav class ="nav-bar">
+          <%= link_to 'Home', root_path %> |
+          <% if @current_user.present? %>
+            <%= link_to "All users", users_path %> |
+            <%= link_to 'Architects', architects_path %> |
+            <%= link_to 'New architect', new_architect_path %> |
+            <%= link_to 'Buildings', buildings_path %> |
+            <%= link_to 'New building', new_building_path %> |
+            <%= link_to 'Sign out', login_path, :method => 'delete' %> 
+          <% else %>
+            <%= link_to 'Sign up', new_user_path %> |
+            <%= link_to 'Log in', login_path %>
+          <% end %>
+        </nav>
+        <hr>
+        <section class="card2">
+        <%= yield %>
+        </section>
       </section>
     </section>
   </body>
