@@ -58,6 +58,11 @@ body {
                         label {
                             display: block;
                         }
+                        select {
+                            width: 54%;
+                            border-radius: 0.3em;
+                            padding: 0.4em;
+                        }
                     }
                 }
             }
