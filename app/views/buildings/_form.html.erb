@@ -11,5 +11,6 @@
     <%= f.url_field :image, :required => true %>
     <%= f.label :architect_id %>
     <%= f.select :architect_id, Architect.pluck(:name, :id), :include_blank => true %>
+    <hr>
     <%= f.submit %>
 <% end %>
