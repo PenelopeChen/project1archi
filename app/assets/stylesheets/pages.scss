@@ -28,10 +28,11 @@ body {
                     align-items: center;
                     background-color: #00A86B;
                     opacity: 90%;
-                    border-radius: 0.6em;
+                    border-radius: 0.5em;
                     padding: 2em;
                     .thumb {
                         height: 10em;
+                        border-radius: 0.65em;
                     }
                     .feature {
                         max-height: 30em;
