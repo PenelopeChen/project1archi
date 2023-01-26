@@ -17,8 +17,6 @@ https://lucid.app/lucidchart/b37517f7-80bd-46bf-98ab-5c88edb51a9a/edit?viewport_
 
 - A checklist that helped with ensuring everything is in place (Notion) https://www.notion.so/Checklist-838ff67b46924d8cac0127eaaf7594a4
 
-- Wireframe design (coming soon on Figma...gonna w8 to learn Cloudinary & SCSS 1st)
-
 Feel free to use Archi on archi.herokuapp.com!
 
 ## Approach 
