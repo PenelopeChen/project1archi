@@ -3,11 +3,44 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
     background-image: url(https://cdn.britannica.com/63/96663-050-C17E44F5/Fallingwater-Frank-Lloyd-Wright-Mill-Run-Pennsylvania-1937.jpg);
-    opacity: 40% black;
     color: rgb(255,250,250);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: large;
     margin: 2em;
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        nav {
+            display: flex; 
+            justify-content: space-evenly;
+            a {
+                color: lightcyan;
+                text-decoration: none;
+                font-size: 20px;
+            }
+        }
+        .card2 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: lightsalmon;
+            opacity: 90%;
+            border-radius: 0.6em;
+            padding: 2em;
+        }
+        form {
+            width: 20em;
+            line-height: 2em;
+            input { 
+                width: 50%;
+                border-radius: 0.3em;
+                padding: 0.5em;
+            }
+        }
+    }
 }
 
 .container {
@@ -25,27 +58,4 @@ body {
 
 label {
     display: block;
-}
-
-nav {
-    display: flex; 
-    justify-content: space-evenly;
-}
-
-a {
-    color: aquamarine;
-    // text-shadow: 1px 1px lightblue;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-form {
-    width: 20em;
-    line-height: 2em;
-}
-
-input { 
-    width: 50%;
-    border-radius: 0.3em;
-    padding: 0.5em;
 }
